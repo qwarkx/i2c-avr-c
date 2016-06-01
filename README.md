@@ -92,4 +92,6 @@ Simple finction to write outh I2C addresses:
 * i2c_add_shifting  -true if you want to shift the I2C addres;
 * The address shifting is a necesery must to communikate with the senzors or what ever you put on the I2C bus.
 
+* YOU WILL NEED printf   function
+
 void i2c_get_adreses(uint8_t i2c_scann, uint8_t i2c_add_shifting);
